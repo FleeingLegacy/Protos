@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "AvatarTeam.proto";
+
+message SetUpAvatarTeamReq {
+  uint32 team_id = 1;
+  AvatarTeam avatar_team = 2;
+  uint64 cur_avatar_guid = 3;
+}

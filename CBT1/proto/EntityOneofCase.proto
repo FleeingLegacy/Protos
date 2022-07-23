@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum EntityOneofCase {
+  NONE = 0;
+  MONSTER_ID = 1;
+  NPC_ID = 2;
+  GADGET_ID = 3;
+  ITEM_ID = 4;
+}

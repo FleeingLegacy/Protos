@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message DungeonWayPointNotify {
+  repeated uint32 active_way_point_list = 1;
+  bool is_add = 2;
+}

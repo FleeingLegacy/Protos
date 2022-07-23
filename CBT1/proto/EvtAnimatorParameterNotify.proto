@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+import "AnimatorParameterValueInfo.proto";
+
+message EvtAnimatorParameterNotify {
+  ForwardType forward_type = 1;
+  uint32 entity_id = 2;
+  int32 name_id = 3;
+  bool is_server_cache = 4;
+  AnimatorParameterValueInfo value = 5;
+}

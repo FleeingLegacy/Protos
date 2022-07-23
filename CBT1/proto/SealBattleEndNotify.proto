@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SealBattleEndNotify {
+  uint32 seal_entity_id = 1;
+  bool is_win = 2;
+}

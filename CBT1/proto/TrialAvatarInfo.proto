@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "Item.proto";
+
+message TrialAvatarInfo {
+  uint32 trial_avatar_id = 1;
+  repeated Item trial_equip_list = 2;
+}

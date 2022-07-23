@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "PlayerLocationInfo.proto";
+
+message ScenePlayerLocationNotify {
+  repeated PlayerLocationInfo player_loc_list = 1;
+}

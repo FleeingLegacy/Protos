@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+enum ContentOneofCase {
+  NONE = 0;
+  TRIFLE_ITEM = 11;
+  ITEM_ID = 12;
+  WORKTOP = 13;
+  CLIENT_GADGET = 14;
+  PLATFORM = 15;
+  WEATHER = 16;
+  ABILITY_GADGET = 17;
+}

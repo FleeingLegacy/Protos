@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum CmdId {
+  NONE = 0;
+  CMD_ID = 1008;
+  ENET_CHANNEL_ID = 0;
+  ENET_IS_RELIABLE = 1;
+}

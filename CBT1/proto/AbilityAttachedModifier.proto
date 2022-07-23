@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message AbilityAttachedModifier {
+  bool is_invalid = 1;
+  uint32 owner_entity_id = 2;
+  uint32 instanced_modifier_id = 3;
+}

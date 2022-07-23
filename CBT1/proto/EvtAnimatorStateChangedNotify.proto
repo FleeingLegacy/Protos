@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+
+message EvtAnimatorStateChangedNotify {
+  ForwardType forward_type = 1;
+  uint32 entity_id = 2;
+  uint32 to_state_hash = 3;
+  uint32 normalized_time_compact = 4;
+  int32 face_angle_compact = 5;
+}

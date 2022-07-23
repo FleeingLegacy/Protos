@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum ParaValOneofCase {
+  NONE = 0;
+  INT_VAL = 2;
+  FLOAT_VAL = 3;
+  BOOL_VAL = 4;
+}

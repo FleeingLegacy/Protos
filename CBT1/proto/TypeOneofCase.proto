@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum TypeOneofCase {
+  NONE = 0;
+  STR = 1;
+  HASH = 2;
+}

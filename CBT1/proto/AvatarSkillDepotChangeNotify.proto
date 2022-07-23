@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message AvatarSkillDepotChangeNotify {
+  uint64 avatar_guid = 1;
+  uint32 entity_id = 2;
+  uint32 skill_depot_id = 3;
+  repeated uint32 talent_id_list = 4;
+}

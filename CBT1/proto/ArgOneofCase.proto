@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum ArgOneofCase {
+  NONE = 0;
+  INT_ARG = 1;
+  FLOAT_ARG = 2;
+  STR_ARG = 3;
+}

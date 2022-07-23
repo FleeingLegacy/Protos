@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+import "Vector.proto";
+
+message EvtFaceToDirNotify {
+  ForwardType forward_type = 1;
+  uint32 entity_id = 2;
+  Vector face_dir = 3;
+}

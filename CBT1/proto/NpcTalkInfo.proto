@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message NpcTalkInfo {
+  uint32 entity_id = 1;
+  repeated uint32 talk_id_list = 2;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum DetailOneofCase {
+  NONE = 0;
+  MATERIAL = 5;
+  EQUIP = 6;
+}

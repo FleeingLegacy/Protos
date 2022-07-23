@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+
+message EvtSetAttackTargetNotify {
+  ForwardType forward_type = 1;
+  uint32 entity_id = 2;
+  uint32 attack_target_id = 3;
+}

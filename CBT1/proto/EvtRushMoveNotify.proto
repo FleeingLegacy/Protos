@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+import "Vector.proto";
+
+message EvtRushMoveNotify {
+  ForwardType forward_type = 1;
+  uint32 entity_id = 2;
+  Vector velocity = 3;
+  float time_range = 4;
+  int32 state_name_hash = 5;
+  int32 face_angle_compact = 6;
+  Vector pos = 7;
+  Vector rush_attack_target_pos = 8;
+  Vector rush_to_pos = 9;
+}

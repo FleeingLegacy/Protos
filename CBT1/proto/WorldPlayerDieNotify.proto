@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "PlayerDieType.proto";
+
+message WorldPlayerDieNotify {
+  oneof Entity {
+    uint32 monster_id = 3;
+    uint32 gadget_id = 4;
+  }
+  PlayerDieType die_type = 1;
+  uint32 murderer_entity_id = 2;
+}

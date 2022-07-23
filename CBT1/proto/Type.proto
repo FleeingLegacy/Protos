@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum Type {
+  NULL = 0;
+  ACTIVE = 1;
+  PASSIVE = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "NpcPostionInfo.proto";
+
+message GetSceneNpcPostionRsp {
+  int32 retcode = 1;
+  uint32 scene_id = 2;
+  repeated NpcPostionInfo npc_info_list = 3;
+}

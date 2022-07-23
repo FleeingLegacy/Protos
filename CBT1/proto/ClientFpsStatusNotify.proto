@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ClientFpsStatusNotify {
+  bool is_low_fps = 1;
+}

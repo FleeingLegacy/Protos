@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+import "AttackResult.proto";
+
+message EvtBeingHitNotify {
+  uint32 peer_id = 1;
+  ForwardType forward_type = 2;
+  AttackResult attack_result = 3;
+  uint32 scene_time = 4;
+}

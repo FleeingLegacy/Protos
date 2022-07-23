@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "ParamList.proto";
+
+message DungeonSettleNotify {
+  uint32 dungeon_id = 1;
+  bool is_success = 2;
+  repeated uint32 fail_cond_list = 3;
+  map<uint32, ParamList> settle_show = 4;
+  uint32 close_time = 5;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AvatarEnterElementViewNotify {
+  uint32 avatar_entity_id = 1;
+  bool is_triggerd = 2;
+}
