@@ -4,4 +4,4 @@ FleeingLegacy-Protos
 
  `CBT#` stands for `Coolest and Biggest Thruster version #`, for sure, no doubt, because we're *fleeing*.
 
- Protobuf files generated using [ProtoDumper](https://github.com/nitrog0d/ProtoDumper) with some modifications.
+ Protobuf files generated using [ProtoDumper](https://github.com/nitrog0d/ProtoDumper) with [some modifications](https://github.com/FleeingLegacy/ProtoDumper-CBT).
